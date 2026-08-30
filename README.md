@@ -1,32 +1,34 @@
-# React + TypeScript + Vite
+<img>
+<hr>
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+# Nova Sala
 
-Currently, two official plugins are available:
+**Nova Sala** é um projeto de melhoramento do site oficial do Governo do Estado de São Paulo **Sala do Futuro**, site esse que é aplicado em todas as redes escolares estaduais do estado de São Paulo.
+<br>
+Os principais objetivos do site é a melhor experiência de usuários tanto para professores, alunos e para os responsáveis dos alunos, obtendo uma melhor otimização da plataforma e experiência de usuário!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+<hr>
 
-## React Compiler
+# Utilidades
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- O seu acesso é passageiro, o site não guarda suas informações pós fechar a aba do site por questões de segurança.
+- Seus dados que aparecem no site oficial irá aparecer na Nova Sala.
+- Opções mais viáveis para cada usuário.
+- Layout refeito para ser mais agradávela cada usuário.
+- Notificação na hora caso receba falta em aula.
 
-## Expanding the Oxlint configuration
+Dentre muitos outros!
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+<hr>
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+# Como testar?
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+Em seu PC, verifique que tenha instalado a versão mais atual do **Node.js** (versão do Node.js usado no projeto: **22.22.3**).
+<br>
+Após instalar o Node.js e de clonar o projeto (`git clone`), dentro do projeto em seu terminal, digite `npm install`, após instalar as dependências, execute o projeto com `npm run dev`.
+
+<hr>
+
+# Licença
+
+...
