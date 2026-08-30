@@ -1,0 +1,30 @@
+.cardDefault {
+    display: flex;
+    width: 600px;
+    background-color: #F9F9F9;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.518);
+
+    color: #606878;
+    text-align: left;
+    padding: 5%;
+    font-size: 20px;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.cardDefault:hover {
+    cursor: pointer;
+}
+
+
+.cardButton h1 {
+    margin: 0;
+}
+
+.cardButton span {
+    font-size: 20px;
+}
