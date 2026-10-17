@@ -13,13 +13,18 @@
 
     justify-content: space-between;
     align-items: center;
+    transition: transform 0.3s ease;
 }
 
 
 .cardDefault:hover {
     cursor: pointer;
+    transform: scale(1.1);
 }
 
+.cardDefault:active {
+    transform: scale(0.98);
+}
 
 .cardButton h1 {
     margin: 0;
