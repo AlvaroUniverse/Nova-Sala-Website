@@ -17,17 +17,17 @@ function Auth() {
       </div>
 
       <div className="container-content-login">
-        <h1 style={{ color: "#606878", fontSize: "4rem" }}>Seja Bem-Vindo</h1>
+        <h1 className="text-5xl font-bold text-gray-600 mb-3">Seja Bem-Vindo</h1>
         {/*Provisório */}
-        <hr style={{ width: "600px" }} />
+        <hr className="w-150"/>
 
-        <h1 style={{ color: "#606878" }}>Escolha um perfil</h1>
+        <h1 className="text-[#606878] mt-3 text-4xl font-bold">Escolha um perfil</h1>
 
         <div className="buttons-region-login">
           <DefaultCard>
             <div>
               <span>Sou</span>
-              <h1>Aluno</h1>
+              <h1 className="font-bold text-4xl">Aluno</h1>
             </div>
             <img src="" alt="teste" />
           </DefaultCard>
@@ -35,7 +35,7 @@ function Auth() {
           <DefaultCard>
             <div>
               <span>Sou</span>
-              <h1>Servidor</h1>
+              <h1 className="font-bold text-4xl">Servidor</h1>
             </div>
             <img src="" alt="teste" />
           </DefaultCard>
@@ -43,7 +43,7 @@ function Auth() {
           <DefaultCard>
             <div>
               <span>Sou</span>
-              <h1>Responsável</h1>
+              <h1 className="font-bold text-4xl">Responsável</h1>
             </div>
             <img src="" alt="teste" />
           </DefaultCard>
