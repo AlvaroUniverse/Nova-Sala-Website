@@ -1,0 +1,67 @@
+body {
+    background-color: #F4F5FC;
+    padding: 1%;
+}
+
+.navBarAuth{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+#logo {
+    width: 150px;
+    
+}
+
+#switchDarkLightMode {
+    display: flex;
+    width: 3.2%;
+    border-radius: 35%;
+    border: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.518);
+    justify-content: center;
+    align-items: center;
+
+    transition: transform 0.12s ease, box-shadow 0.12s ease
+}
+
+#switchDarkLightMode:hover {
+    cursor: pointer;
+}
+
+#switchDarkLightMode:active {
+    transform: scale(0.96);
+}
+
+#sunIcon {
+    font-size: 25px;
+    text-align: center;
+}
+
+.container-content-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+
+.buttons-region-login {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    gap: 40px;
+}
+
+
+/* Para a parte do contéudo do login */
+
+
+
+
+.footerLogin {
+    display: flex;
+    flex-direction: row-reverse;
+}
